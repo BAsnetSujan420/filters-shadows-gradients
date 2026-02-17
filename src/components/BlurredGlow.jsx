@@ -13,10 +13,21 @@ const Gradient = styled.div`
   background-image: linear-gradient(deeppink, red, coral, gold, white);
 `;
 
+const GradientCircle = styled(Gradient)`
+  filter: drop-shadow(0px 0px 25px hsl(0deg 0% 0% / 0.3));
+`;
+const GlowEffect = styled(Gradient)`
+  position: absolute;
+  filter: blur(40px);
+  transform: scale(1.3) translateX(10%) rotate(30deg);
+`;
+
 export default function BlurredGlow() {
   return (
     <Wrapper>
-      <Gradient />
+      <GlowEffect />
+
+      <GradientCircle />
     </Wrapper>
   );
 }
