@@ -19,13 +19,21 @@ const Img = styled.img`
   border-radius: 8px;
 `;
 
-const BrightnessImg = styled(Img)``;
+const BrightnessImg = styled(Img)`
+  filter: brightness(1.4);
+`;
 
-const ContrastImg = styled(Img)``;
+const ContrastImg = styled(Img)`
+  filter: contrast(0.6);
+`;
 
-const SepiaImg = styled(Img)``;
+const SepiaImg = styled(Img)`
+  filter: sepia(1);
+`;
 
-const MixedImg = styled(Img)``;
+const MixedImg = styled(Img)`
+  filter: contrast(1.4) grayscale(1);
+`;
 
 export default function ImageFilters() {
   const src = 'https://courses.joshwcomeau.com/cfj-mats/akihabara.jpg';
