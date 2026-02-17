@@ -28,7 +28,10 @@ const Star = styled.span`
   margin: 4px;
 `;
 
-const Rotated = styled(Star)``;
+const Rotated = styled(Star)`
+  filter: hue-rotate(var(--hue, 0deg));
+  transition: filter 400ms;
+`;
 
 export default function HueRotation() {
   const [hue, setHue] = useState(0);
