@@ -11,8 +11,8 @@ function App() {
       {/* <ImageFilters /> */}
       {/* <HueRotation /> */}
       {/* <BlurredGlow /> */}
-      {/* <BorderRadius /> */}
-      <NestedBorders />
+      <BorderRadius />
+      {/* <NestedBorders /> */}
     </>
   );
 }
