@@ -10,6 +10,7 @@ const Box = styled.div`
   border-radius: 37% 63% 8% 92% / 73% 41% 59% 27%;
   border-radius: 50% 50% 68% 32% / 84% 62% 38% 16%;
   border-radius: 5000px 5000px 1000px 1000px;
+  border-radius: 100vmax;
 `;
 
 function BorderRadius() {
