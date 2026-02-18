@@ -2,8 +2,10 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Card = styled.article`
-  border-radius: 16px;
-  padding: 8px;
+  --outer-radius: 24px;
+  --padding: 8px;
+  border-radius: var(--outer-radius);
+  padding: var(--padding);
   width: min-content;
   background: white;
   color: black;
@@ -15,7 +17,7 @@ const Card = styled.article`
 `;
 
 const Avatar = styled.img`
-  border-radius: 16px;
+  border-radius: calc(var(--outer-radius) - var(--padding));
   display: block;
   width: 250px;
 `;
