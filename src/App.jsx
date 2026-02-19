@@ -5,6 +5,7 @@ import DropShadowCard from './components/DropShadowCard';
 import HueRotation from './components/HueRotation';
 import ImageFilters from './components/ImageFilters';
 import NestedBorders from './components/NestedBorders';
+import OneSideShadows from './components/OneSideShadows';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       {/* <BlurredGlow /> */}
       {/* <BorderRadius /> */}
       {/* <NestedBorders /> */}
-      <DropShadowCard />
+      {/* <DropShadowCard /> */}
+      <OneSideShadows />
     </>
   );
 }
