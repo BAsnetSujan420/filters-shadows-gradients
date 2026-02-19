@@ -18,7 +18,7 @@ const Card = styled.article`
   padding: 32px;
   text-align: center;
 
-  box-shadow: 2px 4px 8px hsl(0deg 0% 0% / 0.25);
+  filter: drop-shadow(2px 4px 8px hsl(0deg 0% 0% / 0.4));
 
   h2 {
     font-size: 1rem;
