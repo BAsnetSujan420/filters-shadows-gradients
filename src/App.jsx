@@ -4,6 +4,7 @@ import BorderRadius from './components/BorderRadius';
 import DropShadowCard from './components/DropShadowCard';
 import HueRotation from './components/HueRotation';
 import ImageFilters from './components/ImageFilters';
+import InsetShadow from './components/InsetShadow';
 import NestedBorders from './components/NestedBorders';
 import OneSideShadows from './components/OneSideShadows';
 
@@ -16,7 +17,8 @@ function App() {
       {/* <BorderRadius /> */}
       {/* <NestedBorders /> */}
       {/* <DropShadowCard /> */}
-      <OneSideShadows />
+      {/* <OneSideShadows /> */}
+      <InsetShadow />
     </>
   );
 }
