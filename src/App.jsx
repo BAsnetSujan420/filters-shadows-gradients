@@ -1,6 +1,7 @@
 import './App.css';
 import BlurredGlow from './components/BlurredGlow';
 import BorderRadius from './components/BorderRadius';
+import DropShadowCard from './components/DropShadowCard';
 import HueRotation from './components/HueRotation';
 import ImageFilters from './components/ImageFilters';
 import NestedBorders from './components/NestedBorders';
@@ -11,8 +12,9 @@ function App() {
       {/* <ImageFilters /> */}
       {/* <HueRotation /> */}
       {/* <BlurredGlow /> */}
-      <BorderRadius />
+      {/* <BorderRadius /> */}
       {/* <NestedBorders /> */}
+      <DropShadowCard />
     </>
   );
 }
