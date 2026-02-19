@@ -7,6 +7,8 @@ const Wrapper = styled.div`
   background-color: hsl(230deg 80% 90%);
   padding: var(--padding);
   border-radius: var(--radius);
+  box-shadow: inset 2px 2px 8px hsl(0deg 0% 0% / 0.33);
+  overflow: hidden;
 `;
 
 const Box = styled.div`
