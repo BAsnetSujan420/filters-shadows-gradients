@@ -5,6 +5,7 @@ import DropShadowCard from './components/DropShadowCard';
 import HueRotation from './components/HueRotation';
 import ImageFilters from './components/ImageFilters';
 import InsetShadow from './components/InsetShadow';
+import LayeredShadows from './components/LayeredShadows';
 import NestedBorders from './components/NestedBorders';
 import OneSideShadows from './components/OneSideShadows';
 import ScrapepBook from './components/ScrapeBook';
@@ -22,7 +23,8 @@ function App() {
       {/* <OneSideShadows /> */}
       {/* <InsetShadow /> */}
       {/* <Tooltip /> */}
-      <ScrapepBook />
+      {/* <ScrapepBook /> */}
+      <LayeredShadows />
     </>
   );
 }
