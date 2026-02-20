@@ -7,6 +7,7 @@ import ImageFilters from './components/ImageFilters';
 import InsetShadow from './components/InsetShadow';
 import NestedBorders from './components/NestedBorders';
 import OneSideShadows from './components/OneSideShadows';
+import Tooltip from './components/Tooltip';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       {/* <NestedBorders /> */}
       {/* <DropShadowCard /> */}
       {/* <OneSideShadows /> */}
-      <InsetShadow />
+      {/* <InsetShadow /> */}
+      <Tooltip />
     </>
   );
 }
