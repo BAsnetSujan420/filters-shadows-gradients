@@ -18,14 +18,14 @@ const TooltipWrapper = styled.div`
   text-align: center;
   color: black;
 
-  box-shadow: 0px 0px 16px hsl(0deg 0% 0% / 0.5);
+  filter: drop-shadow(0px 0px 16px hsl(0deg 0% 0% / 0.5));
 
   &::after {
     content: '';
     position: absolute;
     left: 0;
     right: 0;
-    top: 0;
+    top: 1px;
     margin: auto;
 
     background: inherit;
