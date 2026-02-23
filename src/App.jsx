@@ -2,6 +2,7 @@ import './App.css';
 import BlurredGlow from './components/BlurredGlow';
 import BorderRadius from './components/BorderRadius';
 import DropShadowCard from './components/DropShadowCard';
+import FinancialTrends from './components/FinancialTrends';
 import HueRotation from './components/HueRotation';
 import ImageFilters from './components/ImageFilters';
 import InsetShadow from './components/InsetShadow';
@@ -26,7 +27,8 @@ function App() {
       {/* <Tooltip /> */}
       {/* <ScrapepBook /> */}
       {/* <LayeredShadows /> */}
-      <ShadowDesign />
+      {/* <ShadowDesign /> */}
+      <FinancialTrends />
     </>
   );
 }
