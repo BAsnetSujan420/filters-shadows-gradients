@@ -24,6 +24,7 @@ const Label = styled.label`
 `;
 
 const Input = styled.input`
+  accent-color: hsl(260deg 80% 50%);
   width: 18px;
   height: 18px;
 `;
