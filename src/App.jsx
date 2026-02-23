@@ -9,6 +9,7 @@ import LayeredShadows from './components/LayeredShadows';
 import NestedBorders from './components/NestedBorders';
 import OneSideShadows from './components/OneSideShadows';
 import ScrapepBook from './components/ScrapeBook';
+import ShadowDesign from './components/ShadowDesign';
 import Tooltip from './components/Tooltip';
 
 function App() {
@@ -24,7 +25,8 @@ function App() {
       {/* <InsetShadow /> */}
       {/* <Tooltip /> */}
       {/* <ScrapepBook /> */}
-      <LayeredShadows />
+      {/* <LayeredShadows /> */}
+      <ShadowDesign />
     </>
   );
 }
