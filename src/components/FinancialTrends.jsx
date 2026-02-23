@@ -4,9 +4,9 @@ import styled, { createGlobalStyle } from 'styled-components';
 const GlobalStyles = createGlobalStyle`
   html {
     --color-bg: hsl(0deg 0% 25%);
-    --color-text: hsl(0deg 0% 60%);
+    --color-text: hsl(0deg 0% 75%);
     --color-line-1: hsl(355deg 100% 60%);
-    --color-line-2: hsl(110deg 50% 40%);
+    --color-line-2: hsl(40deg 100% 60%);
   }
 
   body {
@@ -29,7 +29,7 @@ const Header = styled.header`
     border: none;
     padding: 8px 16px;
     font-size: 1rem;
-    background: hsl(0deg 0% 100% / 0.2);
+    background: hsl(0deg 0% 0% / 0.2);
     color: hsl(40deg 100% 60%);
     cursor: pointer;
   }
@@ -91,6 +91,7 @@ const StyledSVG = styled.svg`
 const FroogleLine = styled.path`
   stroke: var(--color-line-1);
   stroke-width: 4px;
+  stroke-dasharray: 8px 8px;
 `;
 
 const GlamazonLine = styled.path`
