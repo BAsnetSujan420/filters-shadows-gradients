@@ -7,6 +7,7 @@ const Wrapper = styled.div`
   height: 100vh;
   display: grid;
   place-content: center;
+  gap: 2rem;
 `;
 const Box = styled.div`
   width: 200px;
@@ -22,10 +23,31 @@ const Box = styled.div`
   );
 `;
 
+const Knob = styled.div`
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 6px solid hsl(0deg 0% 60%);
+  background-image: conic-gradient(
+    hsl(0deg 0% 90%),
+    hsl(0deg 0% 100%),
+    hsl(0deg 0% 30%),
+    hsl(0deg 0% 80%),
+    hsl(0deg 0% 50%),
+    hsl(0deg 0% 90%),
+    hsl(0deg 0% 100%),
+    hsl(0deg 0% 30%),
+    hsl(0deg 0% 80%),
+    hsl(0deg 0% 50%),
+    hsl(0deg 0% 90%)
+  );
+`;
+
 function LinearGradient() {
   return (
     <Wrapper>
       <Box></Box>
+      <Knob></Knob>
     </Wrapper>
   );
 }
