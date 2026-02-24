@@ -43,11 +43,26 @@ const Knob = styled.div`
   );
 `;
 
+const PieChart = styled.div`
+  height: 200px;
+  border: 3px solid black;
+  border-radius: 50%;
+  background-image: conic-gradient(
+    deeppink 0%,
+    deeppink 33.3%,
+    gold 33.4%,
+    gold 66.6%,
+    slateblue 66.7%,
+    slateblue 100%
+  );
+`;
+
 function LinearGradient() {
   return (
     <Wrapper>
       <Box></Box>
       <Knob></Knob>
+      <PieChart />
     </Wrapper>
   );
 }
