@@ -7,29 +7,26 @@ const Wrapper = styled.div`
   height: 100vh;
   display: grid;
   place-content: center;
+  gap: 2rem;
 `;
 const Box = styled.div`
   width: 200px;
   height: 200px;
   border: 3px solid black;
-  background-image: linear-gradient(
-    90deg,
-    deeppink 0%,
-    deeppink 9.99%,
-    red 10%,
-    red 19.99%,
-    coral 20%,
-    coral 29.99%,
-    gold 30%,
-    gold 39.99%,
-    white 40%
-  );
+`;
+
+const BoxOne = styled(Box)`
+  background-image: linear-gradient(deeppink, 20%, gold);
+`;
+const BoxTwo = styled(Box)`
+  background-image: linear-gradient(deeppink, 80%, gold);
 `;
 
 function LinearGradient() {
   return (
     <Wrapper>
-      <Box></Box>
+      <BoxOne></BoxOne>
+      <BoxTwo></BoxTwo>
     </Wrapper>
   );
 }
