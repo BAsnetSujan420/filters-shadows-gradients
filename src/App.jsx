@@ -15,6 +15,7 @@ import ScrapepBook from './components/ScrapeBook';
 import ShadowDesign from './components/ShadowDesign';
 import Tooltip from './components/Tooltip';
 import RadialGradient from './components/RadialGradient';
+import ConicGradient from './components/ConicGradient';
 
 function App() {
   return (
@@ -34,7 +35,8 @@ function App() {
       {/* <FinancialTrends /> */}
       {/* <FormControls /> */}
       {/* <LinearGradient /> */}
-      <RadialGradient />
+      {/* <RadialGradient /> */}
+      <ConicGradient />
     </>
   );
 }
