@@ -14,6 +14,7 @@ import OneSideShadows from './components/OneSideShadows';
 import ScrapepBook from './components/ScrapeBook';
 import ShadowDesign from './components/ShadowDesign';
 import Tooltip from './components/Tooltip';
+import RadialGradient from './components/RadialGradient';
 
 function App() {
   return (
@@ -32,7 +33,8 @@ function App() {
       {/* <ShadowDesign /> */}
       {/* <FinancialTrends /> */}
       {/* <FormControls /> */}
-      <LinearGradient />
+      {/* <LinearGradient /> */}
+      <RadialGradient />
     </>
   );
 }

@@ -12,7 +12,15 @@ const Box = styled.div`
   width: 200px;
   height: 200px;
   border: 3px solid black;
-  background-image: radial-gradient(deeppink, red, coral, gold, white);
+  background-image: radial-gradient(
+    circle at 50% 100%,
+    white 0%,
+    yellow 10%,
+    gold 20%,
+    coral 30%,
+
+    skyblue
+  );
 `;
 
 function LinearGradient() {
