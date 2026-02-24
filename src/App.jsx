@@ -8,6 +8,7 @@ import HueRotation from './components/HueRotation';
 import ImageFilters from './components/ImageFilters';
 import InsetShadow from './components/InsetShadow';
 import LayeredShadows from './components/LayeredShadows';
+import LinearGradient from './components/LinearGradient';
 import NestedBorders from './components/NestedBorders';
 import OneSideShadows from './components/OneSideShadows';
 import ScrapepBook from './components/ScrapeBook';
@@ -30,7 +31,8 @@ function App() {
       {/* <LayeredShadows /> */}
       {/* <ShadowDesign /> */}
       {/* <FinancialTrends /> */}
-      <FormControls />
+      {/* <FormControls /> */}
+      <LinearGradient />
     </>
   );
 }
