@@ -18,10 +18,21 @@ const Wrapper = styled.div`
   justify-content: center;
   margin: auto;
   background-color: var(--gold);
-  border-radius: 8px;
+  border-radius: 10000px 10000px 1000px 1000px;
+  background-image: conic-gradient(
+    from 90deg at 50% 100%,
+    var(--dark-gold) 50%,
+    var(--gold) 62.5%,
+    var(--light-gold) 75%,
+    var(--gold) 87.5%,
+    var(--dark-gold) 100%
+  );
 `;
 
-const Image = styled.img``;
+const Image = styled.img`
+  transform-origin: center bottom;
+  transform: scale(1.4) translateY(16px);
+`;
 
 function TrophyDisplay() {
   return (
