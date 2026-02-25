@@ -17,6 +17,7 @@ import Tooltip from './components/Tooltip';
 import RadialGradient from './components/RadialGradient';
 import ConicGradient from './components/ConicGradient';
 import OverlayGradient from './components/OverlayGradient';
+import OverlappingShapes from './components/OverlappingShapes';
 
 function App() {
   return (
@@ -38,7 +39,8 @@ function App() {
       {/* <LinearGradient /> */}
       {/* <RadialGradient /> */}
       {/* <ConicGradient /> */}
-      <OverlayGradient />
+      {/* <OverlayGradient /> */}
+      <OverlappingShapes />
     </>
   );
 }
