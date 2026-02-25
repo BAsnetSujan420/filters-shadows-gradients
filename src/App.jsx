@@ -16,6 +16,7 @@ import ShadowDesign from './components/ShadowDesign';
 import Tooltip from './components/Tooltip';
 import RadialGradient from './components/RadialGradient';
 import ConicGradient from './components/ConicGradient';
+import OverlayGradient from './components/OverlayGradient';
 
 function App() {
   return (
@@ -36,7 +37,8 @@ function App() {
       {/* <FormControls /> */}
       {/* <LinearGradient /> */}
       {/* <RadialGradient /> */}
-      <ConicGradient />
+      {/* <ConicGradient /> */}
+      <OverlayGradient />
     </>
   );
 }
