@@ -22,6 +22,7 @@ import TrophyDisplay from './components/TrophyDisplay';
 import TriangleButton from './components/TraingleButton';
 import ClippingShapes from './components/ClippingShapes';
 import DropInText from './components/DropInText';
+import RisingNavlink from './components/RisingNavlink';
 
 function App() {
   return (
@@ -48,7 +49,8 @@ function App() {
       {/* <TrophyDisplay /> */}
       {/* <TriangleButton /> */}
       {/* <ClippingShapes /> */}
-      <DropInText />
+      {/* <DropInText /> */}
+      <RisingNavlink />
     </>
   );
 }
