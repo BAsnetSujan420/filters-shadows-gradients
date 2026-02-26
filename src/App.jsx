@@ -20,6 +20,7 @@ import OverlayGradient from './components/OverlayGradient';
 import OverlappingShapes from './components/OverlappingShapes';
 import TrophyDisplay from './components/TrophyDisplay';
 import TriangleButton from './components/TraingleButton';
+import ClippingShapes from './components/ClippingShapes';
 
 function App() {
   return (
@@ -44,7 +45,8 @@ function App() {
       {/* <OverlayGradient /> */}
       {/* <OverlappingShapes /> */}
       {/* <TrophyDisplay /> */}
-      <TriangleButton />
+      {/* <TriangleButton /> */}
+      <ClippingShapes />
     </>
   );
 }
