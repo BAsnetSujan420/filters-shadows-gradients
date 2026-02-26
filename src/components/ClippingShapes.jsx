@@ -4,13 +4,22 @@ import styled from 'styled-components';
 const Wrapper = styled.div`
   width: 400px;
   height: 400px;
-  clip-path: ellipse(200px 400px at 50% 80%);
 `;
 
 const Image = styled.img`
   width: 100%;
   height: 100%;
   object-fit: cover;
+
+  clip-path: circle(160px at 200px 200px);
+  transition: clip-path 400ms;
+  will-change: transform;
+
+  ${Wrapper}:hover &,
+  ${Wrapper}:focus & {
+    clip-path: circle(200px at 200px 200px);
+    transition: clip-path 200ms;
+  }
 `;
 function ClippingShapes() {
   return (
