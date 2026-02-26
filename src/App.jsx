@@ -19,6 +19,7 @@ import ConicGradient from './components/ConicGradient';
 import OverlayGradient from './components/OverlayGradient';
 import OverlappingShapes from './components/OverlappingShapes';
 import TrophyDisplay from './components/TrophyDisplay';
+import TriangleButton from './components/TraingleButton';
 
 function App() {
   return (
@@ -42,7 +43,8 @@ function App() {
       {/* <ConicGradient /> */}
       {/* <OverlayGradient /> */}
       {/* <OverlappingShapes /> */}
-      <TrophyDisplay />
+      {/* <TrophyDisplay /> */}
+      <TriangleButton />
     </>
   );
 }
