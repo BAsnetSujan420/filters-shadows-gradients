@@ -21,6 +21,7 @@ import OverlappingShapes from './components/OverlappingShapes';
 import TrophyDisplay from './components/TrophyDisplay';
 import TriangleButton from './components/TraingleButton';
 import ClippingShapes from './components/ClippingShapes';
+import DropInText from './components/DropInText';
 
 function App() {
   return (
@@ -46,7 +47,8 @@ function App() {
       {/* <OverlappingShapes /> */}
       {/* <TrophyDisplay /> */}
       {/* <TriangleButton /> */}
-      <ClippingShapes />
+      {/* <ClippingShapes /> */}
+      <DropInText />
     </>
   );
 }
