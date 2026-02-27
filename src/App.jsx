@@ -23,6 +23,7 @@ import TriangleButton from './components/TraingleButton';
 import ClippingShapes from './components/ClippingShapes';
 import DropInText from './components/DropInText';
 import RisingNavlink from './components/RisingNavlink';
+import MusicalArtists from './components/MusicalArtists';
 
 function App() {
   return (
@@ -50,7 +51,8 @@ function App() {
       {/* <TriangleButton /> */}
       {/* <ClippingShapes /> */}
       {/* <DropInText /> */}
-      <RisingNavlink />
+      {/* <RisingNavlink /> */}
+      <MusicalArtists />
     </>
   );
 }
