@@ -20,6 +20,11 @@ const StyledForm = styled.form`
     filter 300ms,
     transform 300ms;
   will-change: transform;
+
+  &:focus-within {
+    transform: translateY(-4px);
+    filter: drop-shadow(2px 4px 16px hsl(0deg 0% 0% / 0.2));
+  }
 `;
 
 const Row = styled.div`
