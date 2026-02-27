@@ -24,6 +24,7 @@ import ClippingShapes from './components/ClippingShapes';
 import DropInText from './components/DropInText';
 import RisingNavlink from './components/RisingNavlink';
 import MusicalArtists from './components/MusicalArtists';
+import Form from './components/Form';
 
 function App() {
   return (
@@ -52,7 +53,8 @@ function App() {
       {/* <ClippingShapes /> */}
       {/* <DropInText /> */}
       {/* <RisingNavlink /> */}
-      <MusicalArtists />
+      {/* <MusicalArtists /> */}
+      <Form />
     </>
   );
 }
