@@ -20,6 +20,7 @@ const Artists = styled.section`
   border-radius: 4px;
 
   overflow: auto;
+  scroll-snap-type: x mandatory;
 `;
 
 const ArtistCard = styled.article`
@@ -29,6 +30,7 @@ const ArtistCard = styled.article`
 
   border-radius: 6px;
   overflow: hidden;
+  scroll-snap-align: center;
 `;
 
 const CoverArt = styled.img`
